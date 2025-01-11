@@ -1,20 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .skills, .experience, .projects {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .experience li, .projects li {
+            background: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border-left: 5px solid #007BFF;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Abhay Kumar Maravi</h1>
+            <p>Web Developer | Frontend & Backend | Responsive Design</p>
+        </div>
 
-    <head>
-        <meta charset="UTF-8">
-        <tittle>Abhay's Portfolio</tittle>
-    </head>
+        <div class="section">
+            <h2>Profile Summary</h2>
+            <p>A passionate web developer with experience in building responsive websites and web applications using HTML, CSS, JavaScript, and modern frameworks. Eager to contribute to team success through hard work and continuous learning.</p>
+        </div>
 
-    <body>
-        <h1>Abhay Maravi's Portfolio</h1>
-        <h2>I am A Web Developer</h2>
-        <hr/>
-        <h3> <a href="./public/mymovieranking.html">Movie Ranking Project</a> </h3>
-        <img src="./assets/images/mymovieranking.png" height="200" alt="Movie Ranking project preview"/>
-        <h3> <a href="./public/birthday-invite.html">Birthday Invite project</a> </h3>
-        <img src="./assets/images/mybirthday.png" height="200" alt="Birthday Project Preview"/> <br>
-        <a href="./public/about.html">About Me</a> <br>
-        <a href="./public/contact.html">Contact Me</a>
-    </body>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Responsive Design</li>
+                <li>React.js, Node.js</li>
+                <li>Version Control (Git)</li>
+                <li>Database Management (SQL, MongoDB)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <ul class="experience">
+                <li>
+                    <strong>Web Developer Intern</strong>  (2023 - Present)
+                    <p>Developed and maintained front-end features using HTML, CSS, and JavaScript. Collaborated with backend developers to integrate APIs.</p>
+                </li>
+                <li>
+                    <strong>Freelance Web Developer</strong> (2022 - present)
+                    <p>Designed and developed responsive websites for small businesses using modern frameworks and best practices.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul class="projects">
+                <li>
+                    <strong>Portfolio Website</strong>
+                    <p>A personal portfolio to showcase my web development projects and skills. Built with HTML, CSS, and JavaScript.</p>
+                </li>
+                <li>
+                    <strong>E-commerce Website</strong>
+                    <p>Developed a fully functional e-commerce website using React.js and Node.js. Integrated payment gateway and admin dashboard.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Contact</h2>
+            <p>Email: abhaykumarmaravi@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/abhay-maravi-0b0135294/">linkedin.com/in/Abhaymaravi</a></p>
+            <p>GitHub: <a href="https://github.com/Narayan-thecoder">github.com/narayan-Thecoder</a></p>
+        </div>
+    </div>
+</body>
 </html>
